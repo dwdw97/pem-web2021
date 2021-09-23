@@ -1,0 +1,112 @@
+body {
+	margin: 0px;
+	color: #454242;
+}
+
+.main-container {
+	background-color: #f6f2fc;
+	width: 70%;
+	height: 100vh;
+	margin: 0px 15%;
+    box-shadow:inset 0px 5px 0px 0px #321b6b;
+}
+
+.top-content-container {
+	padding: 15px 15% 5px 15%;
+}
+
+.top-content-container h1 {
+	color: #321b6b;
+	font-size: 26px;
+	font-family: Arial;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.photo-container {
+	width: 20%;
+	float: left;
+}
+
+.photo-container img {
+	display: inline-block;
+	width: 100%;
+}
+
+.bio-container {
+	width: 80%;
+	float: right;
+	text-align: center;
+	display: block;
+}
+
+.table-container {
+	margin: 0px 5%;
+	border-top: 5px solid #eb1c45;
+}
+
+.table-container table {
+	display: inline-block;
+	text-align: left;
+	font-size: 16px;
+	border-collapse: collapse;
+}
+
+.table-container table tr {
+	border-bottom: 1px solid #d1cbcb;
+	vertical-align: top;
+}
+
+.table-container table tr td:nth-of-type(1) {
+	padding: 5px 0px 5px 10px;
+}
+
+.table-container table tr td:nth-of-type(2) {
+	padding: 5px 5px 5px 40px;
+}
+
+.table-container table tr td:nth-of-type(3) {
+	padding: 5px 10px 5px 0px;
+}
+
+.clear {
+  clear: right;
+}
+
+.bottom-content-container {
+	padding: 15px 15% 15px 15%;
+}
+
+.krs-container {
+	width: 100%;
+	background-color: white;
+	padding: 10px;
+}
+
+.krs-container p {
+	margin-top: 0px;
+	margin-bottom: 10px;
+	color: #eb1c45;
+	font-weight: bold;
+	font-size: 20px;
+	font-family: Arial;
+}
+
+.krs-container table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.krs-container table thead {
+	border-bottom: 1px solid gray;
+}
+
+.krs-container table tbody td {
+	padding-left: 10px;
+}
+
+.krs-container table tbody td:nth-of-type(1), td:nth-of-type(5), td:nth-of-type(6) {
+	padding: 0px;
+	text-align: center;
+}

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Contoh Audio di HTML</title>
+	</head>
+	<body>
+		<h1>Hidden audio sebagai background song di web</h1>
+		<audio hidden autoplay loop id="song">
+			<source src="美波「カワキヲアメク」MV.mp3" type="audio/mpeg">
+			Browser anda belum mendukung fitur audio
+		</audio>
+
+		<script>
+		  var audio = document.getElementById("song");
+		  audio.volume = 0.15;
+		</script>
+	</body>
+</html>
